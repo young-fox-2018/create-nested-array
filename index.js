@@ -4,7 +4,7 @@ function nested(row, col) {
     for (let i = 0; i < row; i++) {
         result.push([]);
         for (let j = 0; j < col; j++) {
-            result[i].push(alphabet[Math.floor(Math.random() * 25)]);
+            result[i].push(alphabet[Math.floor(Math.random() * 26)]);
         }
     }
     return result;
