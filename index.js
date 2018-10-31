@@ -1,8 +1,8 @@
 function nestedArray(r, c) {
-    var alph = 'abcdefghijklmnopqrstuvwxyz'
-    var arr = []
-    var arrTemp = []
-    var counter = 0
+    let alph = 'abcdefghijklmnopqrstuvwxyz'
+    let arr = []
+    let arrTemp = []
+    let counter = 0
     for (let i = 0; i < r; i++) {
         while (arrTemp.length < c) {
             counter++
